@@ -1,0 +1,129 @@
+* { margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { 
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 16px;
+	color: #666;
+	background: #eee;
+}
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+img{ max-width: 100%; }
+
+a { text-decoration: none!important; }
+
+p { text-align: justify; }
+
+.logotipo { 
+	margin: 20px 0px 20px 10px;
+	width: 180px; 
+	height: auto; 
+}
+
+.description-doc{padding-top: 30px;}
+
+.description-doc small{text-align: justify;margin-top: 20px;}
+
+.description-doc strong{color: #0049c9;}
+
+.formulario ul{
+	margin: -20px 0 0 170px;
+}
+
+.formulario ul li{
+	display: inline-block;
+	list-style: none!important;
+	margin-left: 15px;
+}
+
+.select-empresa{width: 18%;}
+
+.input-id-empresa{width: 78%;}
+
+.campos-lead .fa{
+	background: #005cff;
+	position: relative;
+	width: 33px;
+	height: 33px;
+	border-radius: 100%;
+	color: #fff!important;
+	margin-top: 28px;
+	margin-left: 1px;
+	z-index: 999;
+}
+
+.formulario .input-redond{
+	width: 290px!important;
+	font-size: 12px!important;
+	text-align: center;
+	margin-top: -33px;
+	border-radius: 500px!important;
+	position: relative;
+	z-index: 1;
+}
+
+h3{
+	width: 97%;
+	border-bottom: 2px solid #ff6300;
+	margin-right: 15px!important;
+	margin-left: 15px;
+	padding-bottom: 28px;
+}
+
+.formulario label{font-weight:300!important;}
+
+.content-lead .email{
+	margin-left: 55px;
+	margin-right: 55px;
+}
+
+.formulario input{
+	margin-bottom: 10px;
+	border: 1px solid #d1d1d1!important;
+	border-radius: 0!important;
+}
+
+.formulario textarea{
+	border: transparent!important;
+	border-radius: 0!important;
+	border: 1px solid #d1d1d1!important;
+}
+
+.formulario select{
+	margin-bottom: 10px;
+	border: 1px solid #d1d1d1!important;
+	border-radius: 0!important;
+}
+
+.botoes { margin: 25px 0px;}
+.botoes .btn { 
+	width: 235px; 
+	font-weight: 300;
+    color: #fff;
+    background-color: #005cff!important;
+    border-color: #005cff!important;
+    border-radius: 500px!important;
+    padding: 6px 12px!important; 
+}
+
+.botoes .btn-gerar { 
+	margin-left: 25px;
+}
+
+.botoes .btn span { letter-spacing: 2.4px; }
+.botoes .fa { font-size: 16px; color: #fff; }
+
+/**** FOOTER ****/
+.footer { 
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    background: #000; }
+.content-footer { padding: 22px 15px 8px 15px!important; }
+.footer p { color: #fff; font-size: 12px; }
+.footer-left p { text-align: left!important;}
+.footer-right p { text-align: right!important; }
+.footer img { width:70px;margin: -13px 0px 0px 6px; }
+/**** /FOOTER ****/

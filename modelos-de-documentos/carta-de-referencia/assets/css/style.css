@@ -1,0 +1,210 @@
+* { margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { 
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 16px;
+	color: #666;
+	background: #eee;
+}
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+img{ max-width: 100%; }
+
+a { text-decoration: none!important; }
+
+p { text-align: justify; }
+
+.logotipo { 
+	margin: 20px 0px 20px 10px;
+	width: 180px; 
+	height: auto; 
+}
+
+.description-doc{padding-top: 30px;}
+
+.description-doc small{text-align: justify;margin-top: 20px;}
+
+.description-doc strong{color: #0049c9;}
+
+.formulario ul{
+	margin: -20px 0 0 170px;
+}
+
+.formulario ul li{
+	display: inline-block;
+	list-style: none!important;
+	margin-left: 15px;
+}
+
+.campos-lead .fa{
+	background: #005cff;
+	position: relative;
+	width: 33px;
+	height: 33px;
+	border-radius: 100%;
+	color: #fff!important;
+	margin-top: 28px;
+	margin-left: 1px;
+	z-index: 999;
+}
+
+.formulario .input-redond{
+	width: 290px!important;
+	font-size: 12px!important;
+	text-align: center;
+	margin-top: -33px;
+	border-radius: 500px!important;
+	position: relative;
+	z-index: 1;
+}
+
+h3{
+	width: 97%;
+	border-bottom: 2px solid #ff6300;
+	margin-right: 15px!important;
+	margin-left: 15px;
+	padding-bottom: 28px;
+}
+
+/*** BTN FILE ***/
+.input_logotipo input[type='file']{display: none;}
+.input_logotipo label{
+	width: 175px; 
+	position: relative;
+	top: 18px;
+	font-weight: 300;
+    color: #fff;
+    background-color: #005cff!important;
+    border-color: #005cff!important;
+    border-radius: 500px!important;
+    padding: 6px 12px!important; 
+    cursor: pointer;
+}
+
+.input_logotipo img{
+	top: 5px;
+	max-width: 250px!important;
+	height: auto;
+	padding-right: 10px; 
+	position: relative;
+	float: right;
+}
+/*** /BTN FILE ***/
+
+.formulario label{font-weight:300!important;}
+
+.content-lead .email{
+	margin-left: 55px;
+	margin-right: 55px;
+}
+
+.formulario input, select{
+	margin-bottom: 10px;
+	border: 1px solid #d1d1d1!important;
+	border-radius: 0!important;
+}
+
+.formulario textarea{
+	border: transparent!important;
+	border-radius: 0!important;
+	border: 1px solid #d1d1d1!important;
+}
+
+.formulario .meu-form{
+	height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d1d1d1!important;
+    border-radius: 0!important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+.form-dia-semana{padding-left: 0!important;padding-right: 0!important;display: inline-block;}
+
+.trabalho select{width: 230px;}
+
+.trabalho input{width: 222px;}
+
+.trabalho-right{margin-left: 12px;}
+
+.data-adm {padding-right: 0!important;}
+
+.cidade{padding-right: 0!important;}
+
+.id-empresa{margin-top: 27px;}
+
+.input-id-empresa{
+	margin-left: 10px!important;
+	width: 210px!important;
+}
+
+.botoes { margin: 25px 0px;}
+.botoes .btn { 
+	width: 235px; 
+	font-weight: 300;
+    color: #fff;
+    background-color: #005cff!important;
+    border-color: #005cff!important;
+    border-radius: 500px!important;
+    padding: 6px 12px!important; 
+}
+
+/* hide input file */
+/*.btn-logotipo .inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}*/
+
+/* customize label */
+/*.btn-logotipo .inputfile-label{
+	color: #fff;
+    background-color: #005cff!important;
+    border-color: #005cff!important;
+    border-radius: 500px!important;
+    padding: 6px 12px!important; 
+    cursor: pointer;
+}*/
+
+.btn-logotipo input[type=file] {
+    float: left;
+    display: block;
+}
+
+.hide {
+    display: none;
+    float: left;
+}
+
+.botoes .btn-gerar { 
+	margin-left: 25px;
+}
+
+.botoes .btn span { letter-spacing: 2.4px; }
+.botoes .fa { font-size: 16px; color: #fff; }
+
+/**** FOOTER ****/
+.footer { 
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    background: #000; }
+.content-footer { padding: 22px 15px 8px 15px!important; }
+.footer p { color: #fff; font-size: 12px; }
+.footer-left p { text-align: left!important;}
+.footer-right p { text-align: right!important; }
+.footer img { width:70px;margin: -13px 0px 0px 6px; }
+/**** /FOOTER ****/

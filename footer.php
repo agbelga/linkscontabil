@@ -2,7 +2,7 @@
         <div class="container content-footer">
             <div class="col-md-6 footer-left">
                 <p>&copy; Link's Contábil - Todos os direitos reservados.</p>
-            </div>
+            </div> 
             <div class="col-md-6 footer-right">
                 <p>Desenvolvido por 
                     <a href="https://www.agenciabelga.com.br/" target="_blank"><img src="http://www.linkscontabil.com.br/desenvolvimento/assets/img/logotipo-agenciabelga.png" title="Agência Belga" alt="logotipo Agência Belga"></a>

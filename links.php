@@ -1,4 +1,4 @@
-<section class="links-importantes bc-shadow"><div id="scroll-links" class="scroll"></div>
+<section class="links-importantes"><div id="scroll-links" class="scroll"></div>
 
     <div class="container content">
 

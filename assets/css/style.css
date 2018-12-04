@@ -20,9 +20,6 @@ p { text-align: justify; }
     position: relative;
     z-index: 99;
 }
-.bc-shadow{
-    box-shadow: -1px -1px 8px #222;
-}
 .blue{ 
     background: #005cff!important;  
     position: relative;
@@ -183,7 +180,7 @@ h2{
 
 /**** SECTION LINKS IMPORTANTES ****/
 .bc-shadow { 
-    box-shadow: -1px -1px 8px #333!important;
+    box-shadow: 1px 1px 15px #000!important;
     position: relative;
     z-index: 99!important; 
 }
